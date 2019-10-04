@@ -8,19 +8,18 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button hello;
-    TextView hey;
+    Button button;
+    Button button2;
+    Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      
 
+        // Add code here
 
     }
-
-    // This is a comment
 
 }
 
