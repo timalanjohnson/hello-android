@@ -32,6 +32,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Add code here
+
+        button3 = (Button) findViewById(R.id.button3);
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Sipho.class);
+                startActivity(intent);
+            }
+        });
+
         button = findViewById(R.id.buttonRoy);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
