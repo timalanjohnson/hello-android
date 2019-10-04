@@ -19,6 +19,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+        button2 = (Button) findViewById(R.id.button2);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+        Bonnie();
+            }
+        });
+
         // Add code here
         button = findViewById(R.id.buttonRoy);
         button.setOnClickListener(new View.OnClickListener() {
@@ -30,8 +42,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }
 
+    private void Bonnie() {
+        Intent intent = new Intent(MainActivity.this, Bonnie.class);
+        startActivity(intent);
+    }
 }
-
 
