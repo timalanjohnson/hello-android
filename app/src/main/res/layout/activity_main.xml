@@ -8,40 +8,29 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
+    <Button
+        android:id="@+id/buttonRoy"
         android:layout_width="wrap_content"
-        android:layout_height="119dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="296dp"
-        android:background="@drawable/don"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="105dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="159dp"
-        android:layout_height="63dp"
-        android:text="Bonnie is amazing"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.209"
-        android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_margin="16dp"
+        android:text="Roy" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
+        android:id="@+id/button2"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="244dp"
-        android:text="Button"
         android:layout_centerHorizontal="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-       android:layout_marginTop="300dp" />
+        android:layout_below="@id/buttonRoy"
+        android:text="Bonnie" />
 
-
+    <Button
+        android:id="@+id/button3"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sipho" />
 </RelativeLayout>
